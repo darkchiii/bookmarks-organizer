@@ -1,0 +1,16 @@
+{
+    "name": "Bookmarks Organizer",
+    "version": "1.0.0",
+    "description": "Chrome extension for organizing bookmarks",
+    "permissions": ["bookmarks", "sidePanel"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Click to open side panel"
+    },
+    "side_panel": {
+      "default_path": "panel.html"
+    },
+    "manifest_version": 3
+  }
